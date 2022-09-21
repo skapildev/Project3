@@ -1,0 +1,44 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.button a {
+    border: 1px solid cornflowerblue ;
+    color: dimgray;
+    text-decoration: none;
+    border-radius: 25px ;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 10px 20px;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin:5px 4px ;
+}
+.header5 a{
+    text-align: right;
+    margin: auto;
+    float: right;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 5px;
+    display: flex
+ }
+.h{
+    text-align: center;
+    padding: 50px;
+    font-size: 25px;
+}
+
+.button{
+    text-align: center;
+}
+
+.gridcontainer {
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    gap: 25px;
+    padding: 25px;
+}
+    
+  
